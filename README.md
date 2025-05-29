@@ -79,7 +79,7 @@ Use https://start.spring.io:
 ```text
 src/
 ├── main/
-│   ├── java/com/yourapp/
+│   ├── java/com/landing-app/
 │   │   ├── controller/
 │   │   ├── service/
 │   │   ├── repository/
@@ -96,7 +96,7 @@ src/
 
 1. Auth Module
 
-- Signup/login with JWT
+- Sign up/login with JWT
 - Role: USER / ADMIN
 
 2. Landing Page Form
@@ -108,7 +108,7 @@ src/
 
 3. Dynamic Page Renderer
 
-- Detect subdomain (drjane.yourapp.com)
+- Detect subdomain (drjane.landing-app.com)
 - Fetch data from DB
 - Render landing.html with Thymeleaf
 
@@ -141,5 +141,5 @@ src/
 - Configure NGINX for:
 
 ```bash
-server_name *.yourapp.com;
+server_name *.landing-app.com;
 ```

@@ -15,7 +15,7 @@ public class User {
 
     private String password;
 
-    @elementCollection(fetch = FetchType.EAGER)
+    @ElementCollection(fetch = FetchType.EAGER)
     private List<String> roles = new ArrayList<>();
         
     // Getters and Setters

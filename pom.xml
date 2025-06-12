@@ -72,6 +72,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        
+        <!-- Map and manage Java objects to DB tables -->
+        <dependency>
+		  <groupId>jakarta.persistence</groupId>
+		  <artifactId>jakarta.persistence-api</artifactId>
+		  <version>3.1.0</version>
+		</dependency>
+
     </dependencies>
 
     <build>
